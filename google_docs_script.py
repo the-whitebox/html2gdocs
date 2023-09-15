@@ -43,6 +43,8 @@ for file_info in results.get('files', []):
     # Convert the downloaded HTML content to a string
     html_content = downloaded_file.getvalue().decode('utf-8')
 
+    
+
     # Create a new Google Docs document
     document = docs_service.documents().create().execute()
     doc_id = document['documentId']
@@ -65,14 +67,14 @@ for file_info in results.get('files', []):
     ).execute()
 
     # Add writer permissions to khurramwbox@gmail.com
-    # drive_service.permissions().create(
-    #     fileId=doc_id,
-    #     body={
-    #         'role': 'writer',
-    #         'type': 'user',
-    #         'emailAddress': 'khurramwbox@gmail.com'
-    #     }
-    # ).execute()
+    drive_service.permissions().create(
+        fileId=doc_id,
+        body={
+            'role': 'writer',
+            'type': 'user',
+            'emailAddress': 'khurramwbox@gmail.com'
+        }
+    ).execute()
 
     # Print the URL of the created and shared Google Docs document
     doc_url = f'https://docs.google.com/document/d/{doc_id}'
