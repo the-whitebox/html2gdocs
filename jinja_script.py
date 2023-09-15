@@ -81,3 +81,7 @@ print(rendered_html)
 # Save the rendered HTML to a file
 # with open('output.html', 'w') as file:
 #     file.write(rendered_html)
+<<<<<<< HEAD
+=======
+
+>>>>>>> 00a560fbf5feea7c75937daaf4ed9253f986b2b3

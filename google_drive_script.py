@@ -51,11 +51,19 @@ drive_service = build('drive', 'v3', credentials=credentials)
 # Specify the file you want to upload
 
 file_metadata = {
+<<<<<<< HEAD
     'name': 'test_output.html',
     'parents': ['1YMsURSzYgp9A9bOYXwqrkW52J5XIDsi2']  # Add the folder ID where you want to upload the file
 }
 # Path to the local HTML file you want to upload
 local_file_path = 'jinja/test_output.html'
+=======
+    'name': 'sample.html',
+    'parents': ['1YMsURSzYgp9A9bOYXwqrkW52J5XIDsi2']  # Add the folder ID where you want to upload the file
+}
+# Path to the local HTML file you want to upload
+local_file_path = 'sample.html'
+>>>>>>> 00a560fbf5feea7c75937daaf4ed9253f986b2b3
 
 # Upload the file
 media_body = MediaFileUpload(local_file_path, mimetype='text/html')
@@ -65,4 +73,11 @@ uploaded_file = drive_service.files().create(
     fields='id'
 ).execute()
 
+<<<<<<< HEAD
 print('File ID: {}'.format(uploaded_file.get('id')))
+=======
+print('File ID: {}'.format(uploaded_file.get('id')))
+
+
+
+>>>>>>> 00a560fbf5feea7c75937daaf4ed9253f986b2b3

@@ -2986,8 +2986,15 @@ html = """
 
 </html>
 """
+<<<<<<< HEAD
 new_parser.table_style = 'TableGrid'
 new_parser.add_html_to_document(html, document)
 
 # do more stuff to document
 document.save('output_data.docx')
+=======
+new_parser.add_html_to_document(html1, document)
+
+# do more stuff to document
+document.save('output1.docx')
+>>>>>>> 00a560fbf5feea7c75937daaf4ed9253f986b2b3

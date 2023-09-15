@@ -41,7 +41,11 @@ for file_info in results.get('files', []):
         status, done = downloader.next_chunk()
 
     # Convert the downloaded HTML content to a string
+<<<<<<< HEAD
     html_content = downloaded_file.getvalue().decode('utf-8')
+=======
+    # html_content = downloaded_file.getvalue().decode('utf-8')
+>>>>>>> 00a560fbf5feea7c75937daaf4ed9253f986b2b3
 
     
 

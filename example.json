@@ -7,7 +7,7 @@
     "data": {
         "primary_keywords": [
             {
-
+                "keyword": "bbb",
                 "intent": "aaa",
                 "search_volume": 123,
                 "source": "semrush",
