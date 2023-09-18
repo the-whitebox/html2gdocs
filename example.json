@@ -40,6 +40,77 @@
                         "link": "a1234sfa"
                     }
                 ]
+            },
+            {
+                "keyword": "bbb",
+                "intent": "aaa",
+                "search_volume": 123,
+                "source": "semrush",
+                "active": true,
+                "urls":[{
+                    "link": "a1234sfa",
+                    "backlinks": 123,
+                    "entities": [
+                        {
+                            "entity": "aaa",
+                            "saliency_score": 123
+                        }],
+                    "intents": ["aaa", "bbb"]
+    
+                }],
+                "PAA":[
+                    {
+                        "question": "aaa",
+                        "answer": "aaa",
+                        "link": "a1234sfa"
+                    }
+                ] ,
+                "carousel": [{
+                    "title": "aaa",
+                    "link": "a1234sfa"
+                }],
+                "featured_snippet": [
+                    {
+                        "answer": "aaa",
+                        "link": "a1234sfa"
+                    }
+                ]
+            }
+            ,
+            {
+                "keyword": "bbb",
+                "intent": "aaa",
+                "search_volume": 123,
+                "source": "semrush",
+                "active": true,
+                "urls":[{
+                    "link": "a1234sfa",
+                    "backlinks": 123,
+                    "entities": [
+                        {
+                            "entity": "aaa",
+                            "saliency_score": 123
+                        }],
+                    "intents": ["aaa", "bbb"]
+    
+                }],
+                "PAA":[
+                    {
+                        "question": "aaa",
+                        "answer": "aaa",
+                        "link": "a1234sfa"
+                    }
+                ] ,
+                "carousel": [{
+                    "title": "aaa",
+                    "link": "a1234sfa"
+                }],
+                "featured_snippet": [
+                    {
+                        "answer": "aaa",
+                        "link": "a1234sfa"
+                    }
+                ]
             }
         ],
         "secondary_keywords": [
@@ -83,7 +154,7 @@
             "page_title": "aaa",
             "h1_tag": "abcd",
             "opening_content": "abcd",
-            "h2_tags": ["abcd"],
+            "h2_tags": ["abcd","cdef","efgh"],
             "h3_tags": ["abcd"],
             "h4_tags": ["abcd"],
             "h5_tags": ["abcd"],
